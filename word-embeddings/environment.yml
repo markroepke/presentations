@@ -1,0 +1,13 @@
+name: word-embeddings-demo
+channels:
+    - defaults
+    - conda-forge
+dependencies:
+    - python>=3.7
+    - pip>=19.0
+    - numpy=1.18.1
+    - pandas=1.0.3
+    - pyspark=2.4.5
+    - nltk=3.4.4
+    - pip:
+      - gensim==3.8.0
